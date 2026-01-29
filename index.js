@@ -135,3 +135,4 @@ console.log("🤖 Bot ishga tushdi (LOCAL MODE)");
 // To‘xtatishda toza yopish
 process.once("SIGINT", () => bot.stop("SIGINT"));
 process.once("SIGTERM", () => bot.stop("SIGTERM"));
+
